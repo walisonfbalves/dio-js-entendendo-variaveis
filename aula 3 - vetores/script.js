@@ -42,3 +42,27 @@ console.log(array); */
 
 //slice() - retorna uma parte de um array existente;
 /* console.log(array.slice(0,2)) */
+
+// OBJETOS
+
+let object = { 
+    string: 'string',
+    number: 1,
+    boolean: true,
+    array: ['array1'],
+    objetoInterno: { objetoInterno: 'Objeto Interno'}
+}
+
+/* console.log(object.objetoInterno.objetoInterno) */
+
+
+// ESTRUTURANDO OBJETOS
+
+/* var stringObjeto = object.string
+console.log(stringObjeto) */
+
+// DESISTRUTURANDO OBJETO
+
+var {string, number} = object;
+
+console.log(string, number)
