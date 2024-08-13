@@ -63,6 +63,6 @@ console.log(stringObjeto) */
 
 // DESISTRUTURANDO OBJETO
 
-var {string, number} = object;
+/* var {string, number} = object;
 
-console.log(string, number)
+console.log(string, number) */
